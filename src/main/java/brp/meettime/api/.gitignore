@@ -1,0 +1,18 @@
+# Ignorar diretórios de build e dependências
+target/
+node_modules/
+.idea/
+.vscode/
+.gradle/
+.mvn/
+
+# Ignorar arquivos específicos
+*.log
+*.class
+*.jar
+*.war
+*.iml
+.DS_Store
+
+# Ignorar variáveis de ambiente
+.env
